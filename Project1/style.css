@@ -3,29 +3,129 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: #ebf5f0;
+    background-size: 100%;
 }
 
 
+/**********3rd Section start************/
 
 .grid-container{
    display: grid;
    grid-template-columns: auto auto;
    padding: 0px;
-}
+   
+} 
 
 .grid-item{
     border: none;
     text-align: left;
+
 }
 
-p {
-    display: block;
-    margin-block-start: 16px;
-    margin-block-end: 16px;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
+.image1{
+    margin-top: 250px;
+    padding-bottom: 10px;
+}
+
+.easypaisa2{
+    margin-top: 80px;
+}
+
+.grid-item iframe{
+    margin-top: 50px;
+    padding: 0px;
+}
+
+.grid-item p {
+    margin-top: 50px;
+    padding: 0px;
+    font-size: larger;
 }
 
 .grid-container h1{
     color: #00BC5F;
+    font-size: 40px;
+    margin-top: 50px;
+    padding: 0px;
+}
+
+
+/**********3rd Section end************/
+
+
+
+
+/**********4th Section start************/
+
+.section4{
+    display: block;
+    text-align: center;
+    margin-top: 100px;
+    padding-top: 20px;
+   
+}
+
+.section4 p{
+    margin-bottom: 40px;
+    font-size: 20px;
+    padding-top: 20px;
+
+}
+
+.image-1{
+    display: flex;
+    height: 435px;
+    width: auto;
+    border: none;
+    margin-bottom: 200px;
+
+}
+
+
+/**********4th Section end************/
+
+
+
+/**********5th Section start************/
+
+.grid-container2{
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 0px;
+
+ } 
+
+ .grid-item2{
+    border: none;
+    text-align: left;
+    padding: 40px;
+
+}
+
+.grid-item2 h1{
+   margin-bottom: 40px;
+}
+
+.grid-item2 p{
+    font-size: 18px;
+ }
+
+.btn-learn{
+    margin-top: 40px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 50px;
+    border: none;
+    font-size: 18px;
+    width: 150px;
+}
+
+.icons{
+    display: flex;
+    height: 100px;
+    justify-content: space-between;
+    margin-top: 40px;
+
+    
 }
