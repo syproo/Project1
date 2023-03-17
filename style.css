@@ -106,20 +106,11 @@ a {
   cursor: pointer;
 }
 
-.feedback {
-  background-color:#00bc5f;
-  color: white;
-  padding: 10px 20px;
-  border-radius: 4px;
-  border-color: #46b8da;
-}
-
 #mybutton {
   position: fixed;
   bottom: 50px;
   right: 10px;
 }
-
 
 /**********3rd Section start************/
 
@@ -127,6 +118,8 @@ a {
   display: grid;
   grid-template-columns: auto auto;
   padding: 0px;
+  width: 1000px;
+  max-width: 100%;
 }
 
 .grid-item {
@@ -172,6 +165,7 @@ a {
   text-align: center;
   margin-top: 100px;
   padding-top: 20px;
+  max-width: 100%;
 }
 
 .section4 p {
@@ -193,12 +187,14 @@ a {
   display: grid;
   grid-template-columns: auto auto;
   padding: 0px;
+  width: 1000px;
+  max-width: 100%;
 }
 
 .grid-item2 {
   border: none;
   text-align: left;
-  padding: 40px;
+  padding: 50px;
 }
 
 .grid-item2 h1 {
@@ -207,21 +203,205 @@ a {
 
 .grid-item2 p {
   font-size: 18px;
+  margin-top: 40px;
 }
 
-.btn-learn {
-  margin-top: 40px;
-  padding: 10px 20px 10px 20px;
+.btn-learn2 {
+  margin-top: 80px;
+  padding: 15px 30px 15px 30px;
   background-color: white;
   border-radius: 50px;
   border: none;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: bold;
 }
 
+.btn-learn2:hover {
+  background-color: #322D41;
+  color: whitesmoke;
+}
+
 .icons {
-  display: flex;
-  height: 100px;
-  justify-content: space-between;
+  display: inline-flex;
+  align-items: flex-start;
+  padding-top: 100px;
+}
+
+/**********6th Section start************/
+
+.grid-container3 {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto;
+
+  padding: 200px 0px 200px 0px;
+}
+
+.grid-item3 {
+  border: none;
+  text-align: left;
+  padding: 50px;
+}
+
+.grid-item3 h1 {
+  margin-bottom: 40px;
+}
+
+.grid-item3 p {
+  font-size: 18px;
   margin-top: 40px;
 }
+
+.btn-learn3 {
+  margin-top: 80px;
+  padding: 15px 30px 15px 30px;
+  background-color: white;
+  border-radius: 50px;
+  border: none;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.btn-learn3:hover {
+  background-color: #322D41;
+  color: whitesmoke;
+}
+.icons2 {
+  display: block;
+  position: relative;
+  padding-top: 50px;
+  justify-content: space-around;
+}
+
+/**********6th Section End************/
+
+/**********7th Section start************/
+
+.container7 {
+  margin: 0 auto;
+  width: 1600px;
+  max-width: 100%;
+}
+.section7 {
+  display: flex;
+  justify-content: space-between;
+  padding: 200px 0px 100px 0px;
+}
+.column1 {
+  font-size: 25px;
+  font-weight: 600;
+}
+.img4 {
+  align-content: flex-start;
+}
+.btn-lm {
+  font-size: 18px;
+  font-weight: bold;
+  background-color: white;
+  border-style: dotted;
+  border-width: 1px 1px 1px 1px;
+  border-color: white;
+  border-radius: 40px 40px 40px 40px;
+  padding: 10px 15px 10px 15px;
+  color: #2d2d64;
+  cursor: pointer;
+  height: 50px;
+  width: 160px;
+  position: relative;
+  left: -48px;
+  top: 20px;
+}
+.text4 {
+  color: #151419;
+  font-size: 34px;
+  font-weight: 790px;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  line-height: 56px;
+  margin-bottom: 30px;
+  position: relative;
+  right: 50px;
+}
+.text5 {
+  font-size: 19px;
+  position: relative;
+  right: 50px;
+  font-weight: normal;
+}
+.btn-lm:hover {
+  background-color: #322D41;
+  color: whitesmoke;
+}
+.img5 {
+  display: flex;
+  flex-direction: initial;
+  width: 200px;
+  gap: 50px;
+  padding-top: 70px;
+}
+
+/**********7th Section End************/
+
+/**********8th Section start************/
+
+.container8 {
+  margin: 0 auto;
+  width: 1400px;
+  max-width: 100%;
+}
+.section8 {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 200px 0px 100px 0px;
+}
+.column2 {
+  font-size: 25px;
+  font-weight: 600;
+}
+.text6 {
+  color: #151419;
+  font-size: 39px;
+  font-weight: 790;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  line-height: 56px;
+  margin-bottom: 30px;
+  position: relative;
+  left: 100px;
+}
+.btn-lm {
+  font-size: 18px;
+
+  font-weight: bold;
+  background-color: white;
+  border-style: dotted;
+  border-width: 1px 1px 1px 1px;
+  border-color: white;
+  border-radius: 40px 40px 40px 40px;
+  padding: 10px 15px 10px 15px;
+  color: #2d2d64;
+  cursor: pointer;
+  height: 50px;
+  width: 160px;
+  position: relative;
+  left: 100px;
+  top: 20px;
+}
+.text7 {
+  font-size: 19px;
+  position: relative;
+  left: 100px;
+  font-weight: normal;
+}
+.img6 {
+  
+  right: 180px;
+  top: 60px;
+}
+.btn-lm:hover {
+  background-color: #322D41;
+  color: whitesmoke;
+}
+
+/**********8th Section End************/
