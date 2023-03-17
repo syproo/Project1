@@ -217,7 +217,7 @@ a {
 }
 
 .btn-learn2:hover {
-  background-color: #322D41;
+  background-color: #322d41;
   color: whitesmoke;
 }
 
@@ -263,7 +263,7 @@ a {
 }
 
 .btn-learn3:hover {
-  background-color: #322D41;
+  background-color: #322d41;
   color: whitesmoke;
 }
 .icons2 {
@@ -329,7 +329,7 @@ a {
   font-weight: normal;
 }
 .btn-lm:hover {
-  background-color: #322D41;
+  background-color: #322d41;
   color: whitesmoke;
 }
 .img5 {
@@ -395,13 +395,144 @@ a {
   font-weight: normal;
 }
 .img6 {
-  
   right: 180px;
   top: 60px;
 }
 .btn-lm:hover {
-  background-color: #322D41;
+  background-color: #322d41;
   color: whitesmoke;
 }
 
 /**********8th Section End************/
+
+/**********9th & 10th Section Start************/
+
+.huz-section {
+  padding: 120px;
+}
+
+.heading-1 {
+  color: #322d41;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.col-2 {
+  display: flex;
+  justify-content: center;
+}
+
+.col-3 {
+  font-size: 25px;
+  font-weight: bold;
+  text-align: end;
+}
+
+.col-3 h3 {
+  color: #322d41;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.form {
+  /*width: 60%;
+  /* padding: 10px 20px 10px 20px; */
+  border-radius: 30px;
+  border: none;
+  font-weight: 500;
+  font-size: 15px;
+  padding-top: 9px;
+  /* text-align: center;
+  margin-left: -220px; */
+  display: flex;
+  justify-content: end;
+}
+
+.form input {
+  padding: 24px;
+  border-radius: 27px;
+  width: 252px;
+  border: none;
+  height: 0px;
+}
+
+.col-3 button {
+  background-color: #322d41;
+  text-decoration: none;
+  color: white;
+  font-size: 17px;
+  padding: 10px 20px 10px 20px;
+  border-radius: 10px;
+  margin-left: 5px;
+}
+
+.col-3 button a {
+  color: white;
+  text-decoration: none;
+}
+
+.storeimage-2 {
+  padding-top: 25px;
+}
+
+.storeimage-2 img {
+  height: auto;
+  max-width: 100%;
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+/* han bhai sec 2 ki css shuru hai */
+
+.there {
+  text-align: center;
+  color: #322d41;
+  font-size: 30px;
+  font-weight: bolder;
+  padding-top: 50px;
+}
+
+.grid-container10 {
+  display: grid;
+  grid-template-columns: 0.5fr 0.5fr 0.5fr;
+  gap: 5px 5px;
+  padding-top: 100px;
+}
+
+.ig1 {
+  padding: 30px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.ig2 {
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.ig3 {
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.ht1 {
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.ht2 {
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.ht3 {
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+/**********9th & 10th Section End************/
