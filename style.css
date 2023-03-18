@@ -536,3 +536,23 @@ a {
   text-align: center;
 }
 /**********9th & 10th Section End************/
+
+/**********footer Section start************/
+
+.f-h1 {
+  padding: 50px 50px 1px 140px;
+}
+
+.grid-container11 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding-top: 50px;
+  padding-left: 140px;
+}
+
+.store-icon {
+  padding-top: 90px;
+  padding-bottom: 50px;
+}
+
+/**********footer Section start************/
